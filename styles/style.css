@@ -333,19 +333,19 @@
   color: #ffffff;
   min-height: 350px;
   display:flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid red;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .footer__columns {
   margin-top: 60px;
-  /*margin-bottom: 40px;*/
+  margin-bottom: 40px;
   width: 90%;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid red;
+
 }
 
 .footer__content_copyright {
@@ -353,19 +353,19 @@
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid red;
+
 }
 
 .footer__content_info {
   display:flex;
   flex-direction: column;
-  border: 1px solid red;
+
 }
 
 .footer__content_social {
   display:flex;
   flex-direction: column;
-  border: 1px solid red;
+
 }
 
 .footer__author {
@@ -381,7 +381,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  border: 1px solid red;
+
 }
 
 .footer__column-links {
@@ -389,7 +389,7 @@
   margin-bottom: 16px;
   display:flex;
   flex-direction: column;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer__column-link {
@@ -410,13 +410,4 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-/*
-<div class="footer__column-links">
-            <p><a class="footer__column-link icon-size" href="#"><img src="images/facebook_color_white.svg"
-              alt=facebook"> Facebook</a></p>
-            <p><a class="footer__column-link icon-size" href="#"><img src="images/vk_color_white.svg"
-              alt=vk"> ВКонтакте</a></p>
-            <p><a class="footer__column-link icon-size" href="#"><img src="images/instagram_color_white.svg"
-                alt=vk"> Instagram</a></p>
-          </div>*/
 
