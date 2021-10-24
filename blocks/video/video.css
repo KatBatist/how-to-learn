@@ -1,7 +1,8 @@
-.khan {
-  background-color: #f2f2f2;
+.video {
   color: #000000;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0 0;
 }
